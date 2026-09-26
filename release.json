@@ -1,0 +1,23 @@
+{
+  "name": "sn8022",
+  "version": "0.2.1",
+  "module": "snd-hda-codec-conexant",
+  "architecture": "x86_64",
+  "codec_vendor_id": "0x14f120d1",
+  "codec_subsystem_id": "0x20147054",
+  "profile": "conexant/sn8022-20147054.bin",
+  "profile_size": 2982,
+  "profile_sha256": "49ca4006dca8fa849f310b2b089efaff9ae9a24f24612ebf3e4a9d78723df214",
+  "supported_kernels": {
+    "7.0.0-34-generic": {
+      "source_package": "Ubuntu linux 7.0.0-34.34",
+      "srcversion": "3347A8152C7B5E35BF1B9E4",
+      "headers": {
+        ".config": "e75c0adab6020e72844d7431cf801a02b94ed32efc251c3b0fb80c021d065180",
+        "Module.symvers": "c5c5bedb68bcd9ccda29884fbfc955a60153a16fc70eec5632e1a8373a1fbc65"
+      }
+    }
+  },
+  "release_status": "experimental release candidate",
+  "package_format": 1
+}

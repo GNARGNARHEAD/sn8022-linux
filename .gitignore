@@ -1,0 +1,26 @@
+# Local kernel build output
+*.o
+*.ko
+*.ko.*
+*.mod
+*.mod.c
+.*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+compile_commands.json
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Keep locally supplied firmware, signing material and recordings out of Git.
+*.bin
+*.priv
+*.key
+*.pem
+*.der
+*.p12
+*.pfx
+*.wav
+*.flac
