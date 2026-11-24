@@ -5,6 +5,11 @@ Air Plus / ARN25C**, codec **14f1:20d1**, codec subsystem **2014:7054**.
 It provides speaker playback and usable built-in microphone selection through
 standard ALSA/PipeWire controls. There is no audio daemon or background probe.
 
+The SN8022-specific changes, tools and documentation were AI-authored using
+OpenAI Codex, under GNARGNARHEAD’s direction and with their hands-on hardware
+testing. The project builds on existing Linux code, whose upstream attribution
+is preserved.
+
 This first package supports **Ubuntu kernel 7.0.0-34-generic, x86_64**, with the
 distribution build inputs listed in `release.json`. It bundles private HDA
 headers and therefore rejects unchecked kernels. This is a compatibility
